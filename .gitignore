@@ -1,0 +1,16 @@
+# Ambientes virtuais
+venv/
+/venv/
+
+# Caches e arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Extensões específicas
+*.pkl
+*.xls
+*.xlsx
+*.json
+
+# Pasta de uploads (ignora tudo lá dentro, mas mantém a estrutura se necessário)
+uploads/

@@ -1,0 +1,313 @@
+/* =====================================================
+   CadMac - Estilo
+===================================================== */
+
+
+body {
+
+    background: #f4f6f8;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+}
+
+
+
+/* =====================================================
+   CABEÇALHO
+===================================================== */
+
+
+.header {
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f2937,
+            #374151
+        );
+
+    color:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,.15);
+
+}
+
+
+.header h1 {
+
+    margin:0;
+
+    font-size:32px;
+
+}
+
+
+.header span {
+
+    opacity:.8;
+
+}
+
+
+
+
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+
+.card {
+
+    border:none;
+
+    border-radius:12px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(0,0,0,.08);
+
+    overflow:hidden;
+
+}
+
+
+
+.card-header {
+
+    background:#111827;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+/* =====================================================
+   ÁREA DE TEXTO
+===================================================== */
+
+
+textarea {
+
+    resize:none;
+
+    font-family:
+        Consolas,
+        monospace;
+
+    font-size:14px;
+
+}
+
+
+
+
+
+/* =====================================================
+   RESULTADO
+===================================================== */
+
+
+.result-box {
+
+
+    height:380px;
+
+    overflow:auto;
+
+
+}
+
+
+
+.resultado-texto {
+
+
+    font-family:
+        Consolas,
+        monospace;
+
+
+    font-size:15px;
+
+
+    line-height:1.8;
+
+
+}
+
+
+
+.resultado-texto h5 {
+
+
+    font-weight:bold;
+
+    color:#111827;
+
+
+}
+
+
+
+.resultado-texto hr {
+
+
+    border-top:
+        2px solid #374151;
+
+}
+
+
+
+.encontrado {
+
+
+    background:#ecfdf5;
+
+    border-left:
+        5px solid #10b981;
+
+
+    padding:10px;
+
+    border-radius:6px;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   LOG
+===================================================== */
+
+
+.log {
+
+
+    background:#111827;
+
+    color:#e5e7eb;
+
+
+    font-family:
+        Consolas,
+        monospace;
+
+
+    height:180px;
+
+
+    overflow:auto;
+
+
+    font-size:13px;
+
+
+    border-radius:0 0 10px 10px;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   BOTÕES
+===================================================== */
+
+
+.buttons {
+
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+
+}
+
+
+
+.btn {
+
+
+    border-radius:8px;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+
+#statusBase {
+
+
+    color:#374151;
+
+}
+
+
+
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+
+@media(max-width:768px){
+
+
+    .header h1 {
+
+        font-size:24px;
+
+    }
+
+
+    .result-box {
+
+        height:300px;
+
+    }
+
+
+    .buttons button,
+    .buttons label {
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+
+}
